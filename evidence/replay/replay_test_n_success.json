@@ -1,0 +1,93 @@
+[
+  {
+    "timestamp": "2026-10-01T23:16:20.652312+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_1",
+      "action": "fill",
+      "target": {
+        "strategy": "id",
+        "name": null,
+        "role": null,
+        "value": "member-id",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:16:22.771139+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_2",
+      "action": "click",
+      "target": {
+        "strategy": "id",
+        "name": "Search Member",
+        "role": "button",
+        "value": "search-member",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:16:22.788570+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_3",
+      "action": "extract",
+      "target": {
+        "strategy": "id",
+        "name": null,
+        "role": null,
+        "value": "savings-balance",
+        "safety": null
+      },
+      "result": "$8,250.00",
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:16:22.788589+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_4",
+      "action": "finish",
+      "target": null,
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:16:22.791615+00:00",
+    "event_type": "checkpoint_verified",
+    "data": {
+      "checkpoint": {
+        "type": "text",
+        "target": {
+          "strategy": "id",
+          "name": null,
+          "role": null,
+          "value": "savings-balance",
+          "safety": null
+        },
+        "description": "Savings account balance is visible in the member account details."
+      },
+      "verified": true
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:16:22.895160+00:00",
+    "event_type": "replay_completed",
+    "data": {
+      "capability_id": "test_n",
+      "version": "1.0.0",
+      "outputs": {
+        "savings_account_balance": "$8,250.00"
+      }
+    }
+  }
+]

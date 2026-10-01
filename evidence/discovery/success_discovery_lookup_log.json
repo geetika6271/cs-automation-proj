@@ -1,0 +1,872 @@
+[
+  {
+    "timestamp": "2026-09-30T23:12:00.135759+00:00",
+    "event_type": "observation",
+    "data": {
+      "step": 1,
+      "state": {
+        "url": "http://localhost:5173/",
+        "title": "frontend",
+        "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→",
+        "buttons": [
+          {
+            "id": "search-member",
+            "text": "Search Member\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          }
+        ],
+        "inputs": [
+          {
+            "id": "member-id",
+            "type": null,
+            "name": null,
+            "aria_label": "Member ID",
+            "placeholder": "Enter member ID",
+            "value": ""
+          }
+        ],
+        "elements": [
+          {
+            "id": "root",
+            "aria_label": null,
+            "tag": "DIV",
+            "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→",
+            "safety": null
+          },
+          {
+            "id": "member-search-title",
+            "aria_label": null,
+            "tag": "H2",
+            "text": "Member Search",
+            "safety": null
+          },
+          {
+            "id": "member-id",
+            "aria_label": "Member ID",
+            "tag": "INPUT",
+            "text": "",
+            "safety": null
+          },
+          {
+            "id": "search-member",
+            "aria_label": null,
+            "tag": "BUTTON",
+            "text": "Search Member\n→",
+            "safety": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:03.247136+00:00",
+    "event_type": "decision",
+    "data": {
+      "step": 1,
+      "action": {
+        "action": "fill",
+        "target": {
+          "strategy": "id",
+          "role": null,
+          "name": null,
+          "value": "member-id",
+          "safety": null
+        },
+        "value": "12345",
+        "output_name": null,
+        "parameter": {
+          "name": "member_id",
+          "type": "string",
+          "description": "Member ID to look up"
+        },
+        "reason": "Enter the requested member ID so it can be searched.",
+        "business_outcome": null,
+        "checkpoint": null
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:03.275552+00:00",
+    "step": 1,
+    "action": {
+      "action": "fill",
+      "target": {
+        "strategy": "id",
+        "role": null,
+        "name": null,
+        "value": "member-id",
+        "safety": null
+      },
+      "value": "12345",
+      "output_name": null,
+      "parameter": {
+        "name": "member_id",
+        "type": "string",
+        "description": "Member ID to look up"
+      },
+      "reason": "Enter the requested member ID so it can be searched.",
+      "business_outcome": null,
+      "checkpoint": null
+    },
+    "state": {
+      "url": "http://localhost:5173/",
+      "title": "frontend",
+      "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→",
+      "buttons": [
+        {
+          "id": "search-member",
+          "text": "Search Member\n→",
+          "role": "button",
+          "aria_label": null,
+          "safety": null
+        }
+      ],
+      "inputs": [
+        {
+          "id": "member-id",
+          "type": null,
+          "name": null,
+          "aria_label": "Member ID",
+          "placeholder": "Enter member ID",
+          "value": ""
+        }
+      ],
+      "elements": [
+        {
+          "id": "root",
+          "aria_label": null,
+          "tag": "DIV",
+          "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→",
+          "safety": null
+        },
+        {
+          "id": "member-search-title",
+          "aria_label": null,
+          "tag": "H2",
+          "text": "Member Search",
+          "safety": null
+        },
+        {
+          "id": "member-id",
+          "aria_label": "Member ID",
+          "tag": "INPUT",
+          "text": "",
+          "safety": null
+        },
+        {
+          "id": "search-member",
+          "aria_label": null,
+          "tag": "BUTTON",
+          "text": "Search Member\n→",
+          "safety": null
+        }
+      ]
+    },
+    "result": {
+      "filled": true
+    },
+    "status": "completed",
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-30T23:12:03.363822+00:00",
+    "event_type": "observation",
+    "data": {
+      "step": 2,
+      "state": {
+        "url": "http://localhost:5173/",
+        "title": "frontend",
+        "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear",
+        "buttons": [
+          {
+            "id": "search-member",
+            "text": "Search Member\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "Clear",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          }
+        ],
+        "inputs": [
+          {
+            "id": "member-id",
+            "type": null,
+            "name": null,
+            "aria_label": "Member ID",
+            "placeholder": "Enter member ID",
+            "value": "12345"
+          }
+        ],
+        "elements": [
+          {
+            "id": "root",
+            "aria_label": null,
+            "tag": "DIV",
+            "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear",
+            "safety": null
+          },
+          {
+            "id": "member-search-title",
+            "aria_label": null,
+            "tag": "H2",
+            "text": "Member Search",
+            "safety": null
+          },
+          {
+            "id": "member-id",
+            "aria_label": "Member ID",
+            "tag": "INPUT",
+            "text": "",
+            "safety": null
+          },
+          {
+            "id": "search-member",
+            "aria_label": null,
+            "tag": "BUTTON",
+            "text": "Search Member\n→",
+            "safety": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:05.088735+00:00",
+    "event_type": "decision",
+    "data": {
+      "step": 2,
+      "action": {
+        "action": "click",
+        "target": {
+          "strategy": "id",
+          "role": "button",
+          "name": "Search Member",
+          "value": "search-member",
+          "safety": null
+        },
+        "value": null,
+        "output_name": null,
+        "parameter": null,
+        "reason": "Search for the entered member ID to access account information.",
+        "business_outcome": null,
+        "checkpoint": null
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:07.144704+00:00",
+    "step": 2,
+    "action": {
+      "action": "click",
+      "target": {
+        "strategy": "id",
+        "role": "button",
+        "name": "Search Member",
+        "value": "search-member",
+        "safety": null
+      },
+      "value": null,
+      "output_name": null,
+      "parameter": null,
+      "reason": "Search for the entered member ID to access account information.",
+      "business_outcome": null,
+      "checkpoint": null
+    },
+    "state": {
+      "url": "http://localhost:5173/",
+      "title": "frontend",
+      "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear",
+      "buttons": [
+        {
+          "id": "search-member",
+          "text": "Search Member\n→",
+          "role": "button",
+          "aria_label": null,
+          "safety": null
+        },
+        {
+          "id": null,
+          "text": "Clear",
+          "role": "button",
+          "aria_label": null,
+          "safety": null
+        }
+      ],
+      "inputs": [
+        {
+          "id": "member-id",
+          "type": null,
+          "name": null,
+          "aria_label": "Member ID",
+          "placeholder": "Enter member ID",
+          "value": "12345"
+        }
+      ],
+      "elements": [
+        {
+          "id": "root",
+          "aria_label": null,
+          "tag": "DIV",
+          "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear",
+          "safety": null
+        },
+        {
+          "id": "member-search-title",
+          "aria_label": null,
+          "tag": "H2",
+          "text": "Member Search",
+          "safety": null
+        },
+        {
+          "id": "member-id",
+          "aria_label": "Member ID",
+          "tag": "INPUT",
+          "text": "",
+          "safety": null
+        },
+        {
+          "id": "search-member",
+          "aria_label": null,
+          "tag": "BUTTON",
+          "text": "Search Member\n→",
+          "safety": null
+        }
+      ]
+    },
+    "result": {
+      "clicked": true
+    },
+    "status": "completed",
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-30T23:12:07.388268+00:00",
+    "event_type": "observation",
+    "data": {
+      "step": 3,
+      "state": {
+        "url": "http://localhost:5173/",
+        "title": "frontend",
+        "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear\nJ\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+        "buttons": [
+          {
+            "id": "search-member",
+            "text": "Search Member\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "Clear",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "◉",
+            "role": "button",
+            "aria_label": "Hide balances",
+            "safety": null
+          },
+          {
+            "id": "open-sub-account",
+            "text": "+\nOpen Sub-Account\nAdd another savings account\n→",
+            "role": "button",
+            "aria_label": "Open Sub-Account",
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "▤\nView Statements\nReview account statements\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "⇄\nTransfer Funds\nMove money between accounts\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          }
+        ],
+        "inputs": [
+          {
+            "id": "member-id",
+            "type": null,
+            "name": null,
+            "aria_label": "Member ID",
+            "placeholder": "Enter member ID",
+            "value": "12345"
+          }
+        ],
+        "elements": [
+          {
+            "id": "root",
+            "aria_label": null,
+            "tag": "DIV",
+            "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear\nJ\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+            "safety": null
+          },
+          {
+            "id": "member-search-title",
+            "aria_label": null,
+            "tag": "H2",
+            "text": "Member Search",
+            "safety": null
+          },
+          {
+            "id": "member-id",
+            "aria_label": "Member ID",
+            "tag": "INPUT",
+            "text": "",
+            "safety": null
+          },
+          {
+            "id": "search-member",
+            "aria_label": null,
+            "tag": "BUTTON",
+            "text": "Search Member\n→",
+            "safety": null
+          },
+          {
+            "id": "member-details",
+            "aria_label": null,
+            "tag": "SECTION",
+            "text": "J\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+            "safety": null
+          },
+          {
+            "id": "member-details-title",
+            "aria_label": null,
+            "tag": "H2",
+            "text": "John Smith",
+            "safety": null
+          },
+          {
+            "id": "member-id-value",
+            "aria_label": null,
+            "tag": "SPAN",
+            "text": "12345",
+            "safety": null
+          },
+          {
+            "id": null,
+            "aria_label": "Hide balances",
+            "tag": "BUTTON",
+            "text": "◉",
+            "safety": null
+          },
+          {
+            "id": "checking-balance",
+            "aria_label": "Checking Balance",
+            "tag": "DIV",
+            "text": "$2,000.00",
+            "safety": null
+          },
+          {
+            "id": "savings-balance",
+            "aria_label": "Savings Balance",
+            "tag": "DIV",
+            "text": "$8,250.00",
+            "safety": null
+          },
+          {
+            "id": "open-sub-account",
+            "aria_label": "Open Sub-Account",
+            "tag": "BUTTON",
+            "text": "+\nOpen Sub-Account\nAdd another savings account\n→",
+            "safety": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:10.081890+00:00",
+    "event_type": "decision",
+    "data": {
+      "step": 3,
+      "action": {
+        "action": "extract",
+        "target": {
+          "strategy": "id",
+          "role": null,
+          "name": null,
+          "value": "savings-balance",
+          "safety": null
+        },
+        "value": null,
+        "output_name": "savings_account_balance",
+        "parameter": null,
+        "reason": "The displayed member profile for ID 12345 shows the savings account available balance.",
+        "business_outcome": null,
+        "checkpoint": null
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:10.099624+00:00",
+    "step": 3,
+    "action": {
+      "action": "extract",
+      "target": {
+        "strategy": "id",
+        "role": null,
+        "name": null,
+        "value": "savings-balance",
+        "safety": null
+      },
+      "value": null,
+      "output_name": "savings_account_balance",
+      "parameter": null,
+      "reason": "The displayed member profile for ID 12345 shows the savings account available balance.",
+      "business_outcome": null,
+      "checkpoint": null
+    },
+    "state": {
+      "url": "http://localhost:5173/",
+      "title": "frontend",
+      "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear\nJ\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+      "buttons": [
+        {
+          "id": "search-member",
+          "text": "Search Member\n→",
+          "role": "button",
+          "aria_label": null,
+          "safety": null
+        },
+        {
+          "id": null,
+          "text": "Clear",
+          "role": "button",
+          "aria_label": null,
+          "safety": null
+        },
+        {
+          "id": null,
+          "text": "◉",
+          "role": "button",
+          "aria_label": "Hide balances",
+          "safety": null
+        },
+        {
+          "id": "open-sub-account",
+          "text": "+\nOpen Sub-Account\nAdd another savings account\n→",
+          "role": "button",
+          "aria_label": "Open Sub-Account",
+          "safety": null
+        },
+        {
+          "id": null,
+          "text": "▤\nView Statements\nReview account statements\n→",
+          "role": "button",
+          "aria_label": null,
+          "safety": null
+        },
+        {
+          "id": null,
+          "text": "⇄\nTransfer Funds\nMove money between accounts\n→",
+          "role": "button",
+          "aria_label": null,
+          "safety": null
+        }
+      ],
+      "inputs": [
+        {
+          "id": "member-id",
+          "type": null,
+          "name": null,
+          "aria_label": "Member ID",
+          "placeholder": "Enter member ID",
+          "value": "12345"
+        }
+      ],
+      "elements": [
+        {
+          "id": "root",
+          "aria_label": null,
+          "tag": "DIV",
+          "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear\nJ\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+          "safety": null
+        },
+        {
+          "id": "member-search-title",
+          "aria_label": null,
+          "tag": "H2",
+          "text": "Member Search",
+          "safety": null
+        },
+        {
+          "id": "member-id",
+          "aria_label": "Member ID",
+          "tag": "INPUT",
+          "text": "",
+          "safety": null
+        },
+        {
+          "id": "search-member",
+          "aria_label": null,
+          "tag": "BUTTON",
+          "text": "Search Member\n→",
+          "safety": null
+        },
+        {
+          "id": "member-details",
+          "aria_label": null,
+          "tag": "SECTION",
+          "text": "J\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+          "safety": null
+        },
+        {
+          "id": "member-details-title",
+          "aria_label": null,
+          "tag": "H2",
+          "text": "John Smith",
+          "safety": null
+        },
+        {
+          "id": "member-id-value",
+          "aria_label": null,
+          "tag": "SPAN",
+          "text": "12345",
+          "safety": null
+        },
+        {
+          "id": null,
+          "aria_label": "Hide balances",
+          "tag": "BUTTON",
+          "text": "◉",
+          "safety": null
+        },
+        {
+          "id": "checking-balance",
+          "aria_label": "Checking Balance",
+          "tag": "DIV",
+          "text": "$2,000.00",
+          "safety": null
+        },
+        {
+          "id": "savings-balance",
+          "aria_label": "Savings Balance",
+          "tag": "DIV",
+          "text": "$8,250.00",
+          "safety": null
+        },
+        {
+          "id": "open-sub-account",
+          "aria_label": "Open Sub-Account",
+          "tag": "BUTTON",
+          "text": "+\nOpen Sub-Account\nAdd another savings account\n→",
+          "safety": null
+        }
+      ]
+    },
+    "result": {
+      "output_name": "savings_account_balance",
+      "value": "$8,250.00"
+    },
+    "status": "completed",
+    "error": null
+  },
+  {
+    "timestamp": "2026-09-30T23:12:10.323392+00:00",
+    "event_type": "observation",
+    "data": {
+      "step": 4,
+      "state": {
+        "url": "http://localhost:5173/",
+        "title": "frontend",
+        "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear\nJ\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+        "buttons": [
+          {
+            "id": "search-member",
+            "text": "Search Member\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "Clear",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "◉",
+            "role": "button",
+            "aria_label": "Hide balances",
+            "safety": null
+          },
+          {
+            "id": "open-sub-account",
+            "text": "+\nOpen Sub-Account\nAdd another savings account\n→",
+            "role": "button",
+            "aria_label": "Open Sub-Account",
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "▤\nView Statements\nReview account statements\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          },
+          {
+            "id": null,
+            "text": "⇄\nTransfer Funds\nMove money between accounts\n→",
+            "role": "button",
+            "aria_label": null,
+            "safety": null
+          }
+        ],
+        "inputs": [
+          {
+            "id": "member-id",
+            "type": null,
+            "name": null,
+            "aria_label": "Member ID",
+            "placeholder": "Enter member ID",
+            "value": "12345"
+          }
+        ],
+        "elements": [
+          {
+            "id": "root",
+            "aria_label": null,
+            "tag": "DIV",
+            "text": "B\nBank App\nU\nBANK OPERATIONS\nMEMBER SERVICES\nMember Search\n\nEnter a member ID to access account information.\n\nMember ID\nSearch Member\n→\nClear\nJ\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+            "safety": null
+          },
+          {
+            "id": "member-search-title",
+            "aria_label": null,
+            "tag": "H2",
+            "text": "Member Search",
+            "safety": null
+          },
+          {
+            "id": "member-id",
+            "aria_label": "Member ID",
+            "tag": "INPUT",
+            "text": "",
+            "safety": null
+          },
+          {
+            "id": "search-member",
+            "aria_label": null,
+            "tag": "BUTTON",
+            "text": "Search Member\n→",
+            "safety": null
+          },
+          {
+            "id": "member-details",
+            "aria_label": null,
+            "tag": "SECTION",
+            "text": "J\nMEMBER PROFILE\nJohn Smith\nMember ID: 12345\nActive Member\nTOTAL RELATIONSHIP BALANCE\n◉\n$10,250.00\nAcross checking and savings\n✓\nACCOUNT STATUS\nActive\nAll accounts available\nYour Accounts\n\nCurrent account balances\n\nC\nChecking\nEveryday Banking\n•••\nAvailable balance\n$2,000.00\nPersonal Checking\n→\nS\nSavings\nPersonal Savings\n•••\nAvailable balance\n$8,250.00\nSavings Account\n→\nAccount Services\n+\nOpen Sub-Account\nAdd another savings account\n→\n▤\nView Statements\nReview account statements\n→\n⇄\nTransfer Funds\nMove money between accounts\n→",
+            "safety": null
+          },
+          {
+            "id": "member-details-title",
+            "aria_label": null,
+            "tag": "H2",
+            "text": "John Smith",
+            "safety": null
+          },
+          {
+            "id": "member-id-value",
+            "aria_label": null,
+            "tag": "SPAN",
+            "text": "12345",
+            "safety": null
+          },
+          {
+            "id": null,
+            "aria_label": "Hide balances",
+            "tag": "BUTTON",
+            "text": "◉",
+            "safety": null
+          },
+          {
+            "id": "checking-balance",
+            "aria_label": "Checking Balance",
+            "tag": "DIV",
+            "text": "$2,000.00",
+            "safety": null
+          },
+          {
+            "id": "savings-balance",
+            "aria_label": "Savings Balance",
+            "tag": "DIV",
+            "text": "$8,250.00",
+            "safety": null
+          },
+          {
+            "id": "open-sub-account",
+            "aria_label": "Open Sub-Account",
+            "tag": "BUTTON",
+            "text": "+\nOpen Sub-Account\nAdd another savings account\n→",
+            "safety": null
+          }
+        ]
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:14.094499+00:00",
+    "event_type": "decision",
+    "data": {
+      "step": 4,
+      "action": {
+        "action": "finish",
+        "target": null,
+        "value": null,
+        "output_name": null,
+        "parameter": null,
+        "reason": "Member 12345 is displayed and the savings account available balance has been retrieved as $8,250.00.",
+        "business_outcome": null,
+        "checkpoint": {
+          "type": "text",
+          "target": {
+            "strategy": "id",
+            "role": null,
+            "name": null,
+            "value": "savings-balance",
+            "safety": null
+          },
+          "description": "Savings account balance is visible in the member account details."
+        }
+      }
+    }
+  },
+  {
+    "timestamp": "2026-09-30T23:12:14.106150+00:00",
+    "event_type": "checkpoint_discovered",
+    "data": {
+      "step": 4,
+      "checkpoint": {
+        "type": "text",
+        "target": {
+          "strategy": "id",
+          "role": null,
+          "name": null,
+          "value": "savings-balance",
+          "safety": null
+        },
+        "description": "Savings account balance is visible in the member account details."
+      }
+    }
+  }
+]

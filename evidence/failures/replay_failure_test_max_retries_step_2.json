@@ -1,0 +1,76 @@
+[
+  {
+    "timestamp": "2026-10-01T23:15:46.486646+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_1",
+      "action": "fill",
+      "target": {
+        "strategy": "id",
+        "name": null,
+        "role": null,
+        "value": "member-id",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:15:48.565885+00:00",
+    "event_type": "recovery_attempt",
+    "data": {
+      "step": "step_2",
+      "attempt": 1,
+      "max_retries": 2,
+      "message": "network error: temporarily unavailable"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:15:50.597925+00:00",
+    "event_type": "recovery_attempt",
+    "data": {
+      "step": "step_2",
+      "attempt": 2,
+      "max_retries": 2,
+      "message": "network error: temporarily unavailable"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:15:52.628904+00:00",
+    "event_type": "recovery_attempt",
+    "data": {
+      "step": "step_2",
+      "attempt": 3,
+      "max_retries": 2,
+      "message": "network error: temporarily unavailable"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:15:52.628920+00:00",
+    "event_type": "recovery_exhausted",
+    "data": {
+      "step": "step_2",
+      "attempts": 3,
+      "message": "network error: temporarily unavailable"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:15:52.628932+00:00",
+    "event_type": "replay_failure",
+    "data": {
+      "status": "hard_failure",
+      "step": "step_2",
+      "message": "Recoverable error persisted after 2 retries: network error: temporarily unavailable",
+      "expected": "Successful replay after retry",
+      "observed": "Recovery attempts exhausted"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:15:52.693896+00:00",
+    "event_type": "failure_evidence",
+    "data": {
+      "screenshot": "evidence/failures/replay_failure_test_max_retries_step_2.png"
+    }
+  }
+]

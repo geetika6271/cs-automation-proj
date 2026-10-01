@@ -1,0 +1,103 @@
+[
+  {
+    "timestamp": "2026-10-01T23:14:20.240329+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_1",
+      "action": "fill",
+      "target": {
+        "strategy": "id",
+        "name": null,
+        "role": null,
+        "value": "member-id",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:14:22.324338+00:00",
+    "event_type": "recovery_attempt",
+    "data": {
+      "step": "step_2",
+      "attempt": 1,
+      "max_retries": 2,
+      "message": "network error: temporarily unavailable"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:14:24.361918+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_2",
+      "action": "click",
+      "target": {
+        "strategy": "id",
+        "name": "Search Member",
+        "role": "button",
+        "value": "search-member",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 2
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:14:24.379378+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_3",
+      "action": "extract",
+      "target": {
+        "strategy": "id",
+        "name": null,
+        "role": null,
+        "value": "savings-balance",
+        "safety": null
+      },
+      "result": "$8,250.00",
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:14:24.379401+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_4",
+      "action": "finish",
+      "target": null,
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:14:24.383015+00:00",
+    "event_type": "checkpoint_verified",
+    "data": {
+      "checkpoint": {
+        "type": "text",
+        "target": {
+          "strategy": "id",
+          "name": null,
+          "role": null,
+          "value": "savings-balance",
+          "safety": null
+        },
+        "description": "Savings account balance is visible in the member account details."
+      },
+      "verified": true
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:14:24.499915+00:00",
+    "event_type": "replay_completed",
+    "data": {
+      "capability_id": "test_recoverable_error",
+      "version": "1.0.0",
+      "outputs": {
+        "savings_account_balance": "$8,250.00"
+      }
+    }
+  }
+]

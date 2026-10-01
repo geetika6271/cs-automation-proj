@@ -1,0 +1,155 @@
+[
+  {
+    "timestamp": "2026-10-01T23:17:44.304409+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_1",
+      "action": "fill",
+      "target": {
+        "strategy": "id",
+        "name": null,
+        "role": null,
+        "value": "member-id",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:44.485562+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_2",
+      "action": "click",
+      "target": {
+        "strategy": "id",
+        "name": "Search Member",
+        "role": "button",
+        "value": "search-member",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:44.572999+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_3",
+      "action": "click",
+      "target": {
+        "strategy": "id",
+        "name": "Open Sub-Account",
+        "role": "button",
+        "value": "open-sub-account",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:44.605317+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_4",
+      "action": "fill",
+      "target": {
+        "strategy": "id",
+        "name": null,
+        "role": null,
+        "value": "initial-deposit",
+        "safety": null
+      },
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:44.731199+00:00",
+    "event_type": "human_handoff_requested",
+    "data": {
+      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "step": "step_5",
+      "action": "click",
+      "reason": "Human approval required for this UI action",
+      "screenshot": "evidence/handoff/replay/intervention_step_5.png"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:44.731204+00:00",
+    "event_type": "human_intervention_started",
+    "data": {
+      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "step": "step_5"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:52.541248+00:00",
+    "event_type": "human_intervention_completed",
+    "data": {
+      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "step": "step_5",
+      "human_action": "human completed required intervention",
+      "status": "resumed"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:52.541267+00:00",
+    "event_type": "replay_resumed",
+    "data": {
+      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "step": "step_5"
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:52.541277+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_5",
+      "action": "click",
+      "result": "completed_by_human",
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:52.541298+00:00",
+    "event_type": "replay_step",
+    "data": {
+      "step_id": "step_6",
+      "action": "finish",
+      "target": null,
+      "result": null,
+      "attempt": 1
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:52.545854+00:00",
+    "event_type": "checkpoint_verified",
+    "data": {
+      "checkpoint": {
+        "type": "visible",
+        "target": {
+          "strategy": "id",
+          "name": null,
+          "role": null,
+          "value": "sub-account-confirmation",
+          "safety": null
+        },
+        "description": "Sub-account confirmation is visible."
+      },
+      "verified": true
+    }
+  },
+  {
+    "timestamp": "2026-10-01T23:17:52.611994+00:00",
+    "event_type": "replay_completed",
+    "data": {
+      "capability_id": "test_human_handoff",
+      "version": "1.0.0",
+      "outputs": {}
+    }
+  }
+]
