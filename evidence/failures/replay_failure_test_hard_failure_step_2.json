@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-10-01T23:18:24.436567+00:00",
+    "timestamp": "2026-10-02T01:22:36.047403+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_1",
@@ -17,7 +17,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:18:29.445703+00:00",
+    "timestamp": "2026-10-02T01:22:41.053962+00:00",
     "event_type": "recovery_attempt",
     "data": {
       "step": "step_2",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:18:34.452292+00:00",
+    "timestamp": "2026-10-02T01:22:46.061236+00:00",
     "event_type": "recovery_attempt",
     "data": {
       "step": "step_2",
@@ -37,7 +37,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:18:39.461627+00:00",
+    "timestamp": "2026-10-02T01:22:51.072018+00:00",
     "event_type": "recovery_attempt",
     "data": {
       "step": "step_2",
@@ -47,7 +47,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:18:39.461644+00:00",
+    "timestamp": "2026-10-02T01:22:51.072030+00:00",
     "event_type": "recovery_exhausted",
     "data": {
       "step": "step_2",
@@ -56,7 +56,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:18:39.461658+00:00",
+    "timestamp": "2026-10-02T01:22:51.072039+00:00",
     "event_type": "replay_failure",
     "data": {
       "status": "hard_failure",
@@ -67,7 +67,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:18:39.520196+00:00",
+    "timestamp": "2026-10-02T01:22:51.139858+00:00",
     "event_type": "failure_evidence",
     "data": {
       "screenshot": "evidence/failures/replay_failure_test_hard_failure_step_2.png"

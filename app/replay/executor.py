@@ -331,10 +331,6 @@ class ReplayExecutor:
         try:
             page_text = self.surface.get_page_text().lower()
 
-            print("\n=== CURRENT PAGE TEXT ===")
-            print(page_text)
-            print("=== END PAGE TEXT ===")
-
             recoverable_patterns = [
                 "temporarily unavailable",
                 "network error",
@@ -348,7 +344,6 @@ class ReplayExecutor:
                     print(f">>> Detected recoverable UI error: {pattern}")
                     return pattern
 
-            print(">>> No recoverable UI error detected")
             return None
 
         except Exception as exc:

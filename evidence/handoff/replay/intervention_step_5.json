@@ -1,11 +1,11 @@
 {
-  "intervention_id": "test_human_handoff_step_5_20261001231744",
+  "intervention_id": "test_human_handoff_step_5_20261002012314",
   "goal": "Open a new savings sub-account with human approval.",
   "current_step": "step_5",
   "reason": "Human approval required for this UI action",
   "screenshot": "evidence/handoff/replay/intervention_step_5.png",
   "status": "resumed",
-  "created_at": "2026-10-01T23:17:44.731170+00:00",
-  "completed_at": "2026-10-01T23:17:52.539787+00:00",
+  "created_at": "2026-10-02T01:23:14.296239+00:00",
+  "completed_at": "2026-10-02T01:23:19.026030+00:00",
   "human_action": "human completed required intervention"
 }

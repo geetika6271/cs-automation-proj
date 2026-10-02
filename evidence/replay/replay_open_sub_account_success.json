@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-10-01T22:42:16.377365+00:00",
+    "timestamp": "2026-10-02T01:09:45.914903+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_1",
@@ -17,7 +17,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:18.458659+00:00",
+    "timestamp": "2026-10-02T01:09:46.086000+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_2",
@@ -34,7 +34,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:20.511894+00:00",
+    "timestamp": "2026-10-02T01:09:46.140450+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_3",
@@ -51,7 +51,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:20.533325+00:00",
+    "timestamp": "2026-10-02T01:09:46.166574+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_4",
@@ -68,10 +68,10 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:20.649222+00:00",
+    "timestamp": "2026-10-02T01:09:46.334778+00:00",
     "event_type": "human_handoff_requested",
     "data": {
-      "intervention_id": "open_sub_account_step_5_20261001224220",
+      "intervention_id": "open_sub_account_step_5_20261002010946",
       "step": "step_5",
       "action": "click",
       "reason": "Human approval required for this UI action",
@@ -79,33 +79,33 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:20.649225+00:00",
+    "timestamp": "2026-10-02T01:09:46.334784+00:00",
     "event_type": "human_intervention_started",
     "data": {
-      "intervention_id": "open_sub_account_step_5_20261001224220",
+      "intervention_id": "open_sub_account_step_5_20261002010946",
       "step": "step_5"
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:24.185089+00:00",
+    "timestamp": "2026-10-02T01:10:57.200986+00:00",
     "event_type": "human_intervention_completed",
     "data": {
-      "intervention_id": "open_sub_account_step_5_20261001224220",
+      "intervention_id": "open_sub_account_step_5_20261002010946",
       "step": "step_5",
       "human_action": "human completed required intervention",
       "status": "resumed"
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:24.185097+00:00",
+    "timestamp": "2026-10-02T01:10:57.200998+00:00",
     "event_type": "replay_resumed",
     "data": {
-      "intervention_id": "open_sub_account_step_5_20261001224220",
+      "intervention_id": "open_sub_account_step_5_20261002010946",
       "step": "step_5"
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:24.185103+00:00",
+    "timestamp": "2026-10-02T01:10:57.201007+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_5",
@@ -115,7 +115,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:24.185116+00:00",
+    "timestamp": "2026-10-02T01:10:57.201023+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_6",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:24.188694+00:00",
+    "timestamp": "2026-10-02T01:10:57.204879+00:00",
     "event_type": "checkpoint_verified",
     "data": {
       "checkpoint": {
@@ -144,7 +144,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T22:42:24.266392+00:00",
+    "timestamp": "2026-10-02T01:10:57.276379+00:00",
     "event_type": "replay_completed",
     "data": {
       "capability_id": "open_sub_account",

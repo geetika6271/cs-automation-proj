@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-10-01T23:17:44.304409+00:00",
+    "timestamp": "2026-10-02T01:23:13.893944+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_1",
@@ -17,7 +17,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:44.485562+00:00",
+    "timestamp": "2026-10-02T01:23:14.077043+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_2",
@@ -34,7 +34,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:44.572999+00:00",
+    "timestamp": "2026-10-02T01:23:14.147739+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_3",
@@ -51,7 +51,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:44.605317+00:00",
+    "timestamp": "2026-10-02T01:23:14.172770+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_4",
@@ -68,10 +68,10 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:44.731199+00:00",
+    "timestamp": "2026-10-02T01:23:14.296269+00:00",
     "event_type": "human_handoff_requested",
     "data": {
-      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "intervention_id": "test_human_handoff_step_5_20261002012314",
       "step": "step_5",
       "action": "click",
       "reason": "Human approval required for this UI action",
@@ -79,33 +79,33 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:44.731204+00:00",
+    "timestamp": "2026-10-02T01:23:14.296275+00:00",
     "event_type": "human_intervention_started",
     "data": {
-      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "intervention_id": "test_human_handoff_step_5_20261002012314",
       "step": "step_5"
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:52.541248+00:00",
+    "timestamp": "2026-10-02T01:23:19.027041+00:00",
     "event_type": "human_intervention_completed",
     "data": {
-      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "intervention_id": "test_human_handoff_step_5_20261002012314",
       "step": "step_5",
       "human_action": "human completed required intervention",
       "status": "resumed"
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:52.541267+00:00",
+    "timestamp": "2026-10-02T01:23:19.027055+00:00",
     "event_type": "replay_resumed",
     "data": {
-      "intervention_id": "test_human_handoff_step_5_20261001231744",
+      "intervention_id": "test_human_handoff_step_5_20261002012314",
       "step": "step_5"
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:52.541277+00:00",
+    "timestamp": "2026-10-02T01:23:19.027063+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_5",
@@ -115,7 +115,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:52.541298+00:00",
+    "timestamp": "2026-10-02T01:23:19.027077+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_6",
@@ -126,7 +126,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:52.545854+00:00",
+    "timestamp": "2026-10-02T01:23:19.031361+00:00",
     "event_type": "checkpoint_verified",
     "data": {
       "checkpoint": {
@@ -144,7 +144,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:17:52.611994+00:00",
+    "timestamp": "2026-10-02T01:23:19.105414+00:00",
     "event_type": "replay_completed",
     "data": {
       "capability_id": "test_human_handoff",

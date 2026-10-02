@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-10-01T23:14:20.240329+00:00",
+    "timestamp": "2026-10-02T01:26:36.952574+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_1",
@@ -17,7 +17,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:14:22.324338+00:00",
+    "timestamp": "2026-10-02T01:26:39.045893+00:00",
     "event_type": "recovery_attempt",
     "data": {
       "step": "step_2",
@@ -27,7 +27,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:14:24.361918+00:00",
+    "timestamp": "2026-10-02T01:26:41.125516+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_2",
@@ -44,7 +44,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:14:24.379378+00:00",
+    "timestamp": "2026-10-02T01:26:41.166523+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_3",
@@ -61,7 +61,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:14:24.379401+00:00",
+    "timestamp": "2026-10-02T01:26:41.166547+00:00",
     "event_type": "replay_step",
     "data": {
       "step_id": "step_4",
@@ -72,7 +72,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:14:24.383015+00:00",
+    "timestamp": "2026-10-02T01:26:41.170683+00:00",
     "event_type": "checkpoint_verified",
     "data": {
       "checkpoint": {
@@ -90,7 +90,7 @@
     }
   },
   {
-    "timestamp": "2026-10-01T23:14:24.499915+00:00",
+    "timestamp": "2026-10-02T01:26:41.302539+00:00",
     "event_type": "replay_completed",
     "data": {
       "capability_id": "test_recoverable_error",
