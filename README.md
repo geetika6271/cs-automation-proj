@@ -165,12 +165,15 @@ npm install
 ## Configuration
 
 Create a `.env` file in the project root adding the API keys and other secured data.
-
+```bash
+OPENAI_API_KEY=<API-KEY>
+OPENAI_MODEL=gpt-5.6-terra
+```
 Do not commit the `.env` file or API key to GitHub.
 
 ## Running the Application
 
-Start the FastAPI backend on the root directory of the project
+Start the FastAPI backend on the root directory of the project in one terminal
 ```bash
 uvicorn bank_app.backend.main:app --reload --port 8001
 ```
@@ -178,8 +181,9 @@ The backend runs on
 ```text
 http://localhost:8001
 ```
-Start the React frontend:
+In another terminal, from the project directory: Start the React frontend:
 ```bash
+cd bank_app/frontend
 npm run dev
 ```
 
@@ -201,7 +205,7 @@ This case is used to identify and capture the legitimate business outcome when t
 rather than treating the result as a technical failure.
 - The business outcome discovery records the expected business outcome and evidence in business_outcome_discovery_log.json.
 
-Run the discovery lookup savings process process with:
+Run the Discovery Lookup Savings Process. In a new terminal, from the root project directory, run:
 ```bash
 python -m app.cli discover-lookup --goal "Look up member 12345 and retrieve the savings account balance." --outcome-member-id 99999
 ```
@@ -275,10 +279,10 @@ For the Open Savings Sub-Account capability, run the discovery command below:
  python -m app.cli discover-open-sub-account --goal "Open a new savings sub-account for member 12345 with an initial deposit of 570 and reach the confirmation screen"
 ```
 
-When the automation encounters an action marked safety = human_required, it pauses execution and 
+- When the automation encounters an action marked safety = human_required, it pauses execution and 
 creates a human intervention request containing the intervention ID, goal, current step, reason for stopping, screenshot, and status.
-The human then takes control of the same live session, performs the required action, and signals completion. 
-The HandoffManager records the human action and updates the request state from pending to approved and then resumed.
+- The human then takes control of the same live session, performs the required action, and signals completion by pressing Enter in the terminal.
+- The HandoffManager records the human action and updates the request state from pending to approved and then resumed.
 
 After the intervention is complete, control is returned to the automation. 
 The page is observed again to verify the resulting UI state before execution continues.
