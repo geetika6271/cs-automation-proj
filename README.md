@@ -354,9 +354,9 @@ Evidence can include:
 
 ## Testing
 
-Run the complete test suite:
+Run the complete tests wih:
 ```bash
-python -m pytest tests/ -v
+python -m pytest tests/<file-name>.py -v -s     
 
 ```
 
@@ -398,7 +398,7 @@ cs-automation-proj/
 |
 ├── tests/
 |
-├── REPORT.md
+├── cs-report.md
 ├── README.md
 └── requirements.txt
 ```
